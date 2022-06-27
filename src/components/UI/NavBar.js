@@ -1,10 +1,10 @@
-import logo from '../assets/logo.png'
-import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import React from 'react';
+import logo from './assets/img/logo.png';
 
-const NavBar = () => {
+function NavBar() {
     return (
         <>
-            <img scr={logo} alt="logo"/>
+            <img scr={logo} alt="logo" />
             <h1>Magic Fairy Store</h1>
             <nav>
                 <a href="">Polleras</a>
@@ -13,9 +13,9 @@ const NavBar = () => {
                 <a href="">Mochilas</a>
                 <a href="">Tops</a>
             </nav>
-            <img scr={AddShoppingCartIcon} alt="carrito"/>
+            <img scr={AddShoppingCartIcon} alt="carrito" />
         </>
-    )
+    );
 }
 
 export default NavBar
