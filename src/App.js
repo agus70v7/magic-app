@@ -1,5 +1,5 @@
 import React from 'react';
-import { ItemCount } from './components/Cart/ItemCount';
+import { ItemCount } from './components/ItemCount';
 import { CartWidget } from './components/CartWidget';
 import { NavBar } from './components/UI/NavBar';
 import { ItemListContainer } from './components/ItemListContainer';
