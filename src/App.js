@@ -1,30 +1,18 @@
 import React from 'react';
-import './App.css';
-import CartWidget from './components/CartWidget';
-import ItemListContainer from './components/ItemListContainer';
-import NavBar from './components/NavBar';
+import { ItemCount } from './components/Cart/ItemCount';
+import { CartWidget } from './components/CartWidget';
+import { NavBar } from './components/UI/NavBar';
+import { ItemListContainer } from './components/ItemListContainer';
 
 function App() {
   return (
     <div className="App">
-     <NavBar/>
+      <NavBar />
+      <CartWidget />
+      <ItemListContainer />
+      <ItemCount />
     </div>
   );
 }
 
-function App() {
-  return (
-    <div className="App">
-    <ItemListContainer/>
-   </div>
-  )
-}
-
-function App() {
-  return (
-    <div className="App">
-    <CartWidget/>
-   </div>
-  )
-}
 export default App;

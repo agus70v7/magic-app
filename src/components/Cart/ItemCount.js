@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-const ItemCount = () => {
-    return <div />
-   }
-
-   export default ItemCount;
+export const ItemCount = () => {
+  return (
+    <div>ItemCount</div>
+  )
+}

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-const SearchBar = () => {
- return <div />
+export const CartWidget = () => {
+  return (
+    <div>CartWidget</div>
+  )
 }
-
-export default CartWidget;
